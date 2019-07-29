@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "galleries",
+  "info": {
+    "name": "gallerie",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "gallery_img": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}
